@@ -1,42 +1,51 @@
 <html>
-<header>
-  <h1> CodeSpace's Cat portfolio</h1>  
-</header>
-</style>
-<nav>
+<head>
+  <title>Code Space's Cat Portfolio</title>
+</head>
+<header><h1> CodeSpace's Cat portfolio</h1>  
+<nav class="nav-section">
   <ul>
-    <li><u>About me👋</u></li>
-    <li><u>Skills📸</u></li>
-    <li><u>Portfolio ⚒</u></li>
-    <li><u>Contact🤙</u></li>
+    <li><a href="#About-me-section">About me👋</a></li>
+    <li><a href="#Skills-section">Skills📸</a></li>
+    <li><a href="#Portfolio-section">Portifolio ⚒</a></li>
+    <li><a href="#Contacts-section">Contacts☎️</a></li>
   </ul>
 </nav>
+</header>  
 <body>
-<atticle>
-    <h3>About me 😁</h3>
-        <img src="/images/Akhona Jaxa.jpg" alt="my pic" width="300" height="400">
-    <p>
-      Hello! Iam Akhona Jaxa. I passionste about web development, 
-      I have earger to learn knowing that challenges are part of experience. I adore working with highly 
-      motivatitional individuals with strong qualities to share experience along this fantastic juorney.
-    </p>
-      </div>
-    <h3>My Skills</h3>
+
+  <!-- About-me-section-->
+  <section id="about-me-section">
+    <p>About me 😁</p>
+<div>
+  <img src="/images/Akhona Jaxa.jpg" alt="my pic" width="300" height="400">
+</div>
+  <p>Hello! I'm Akhona Jaxa. I passionste about web development, 
+    I have earger to learn knowing that challenges are part of experience. I adore working with highly 
+    motivatitional individuals with strong qualities to share experience along this fantastic journey.</p>
+  </section>
+
+   <!-- Skills-section-->
+   <section id="--Skills-section--">
+    <p>Skills</p>
     <ul>
       <li>HTML</li>
       <li>CSS</li>
       <li>JavaScript</li>
   </ul>
-  
-<h3>Portfolio</h3>
-<table>
-  <tr>
+  </section>
+
+  <!-- Portfolio-section-->
+  <section id="portfolio-section">
+
+    <table class="Portfolio-table" style="width:100%">
+      <p>Portfolio</p>
+<tr>
     <th>Project Name</th>
     <th>Date</th>
     <th>Discription</th>
     <th>Thumbnail</th>
-  </tr>
-</table>
+</tr>
 <tr>
   <td>Purrfect Landing Page</td>
   <td>January 2024</td>
@@ -55,15 +64,32 @@
   <td>A social media site for cats to meow and hiss</td>
   <td><img src="/images/3.png"></td>
 </tr>
-  </body>
+</table>
 </section>
+  
+<footer>
+  <!-- Contacts-section-->
+<section id="Contacts-section">
   <p>Contact me: </p>
       <a href="akhonajaxa@gmail.com">akhonajaxa@gmail.com</a><br>
       <a href="tel:+27678229611">+27 (67) 822‑9611</a>
 </section>
   
-<footer> 
+<!-- Contact-form-section-->
+ <form id="Contact-form-section--">
+
+    <label for="client-name">Name : </label>
+    <input type="text" name="client-name">
+    <label for="client-email">Email : </label>
+    <input type="email" name="client-email">
+    <label for="client-message">Message : </label>
+    <textarea name="client-message"></textarea>
+    <input type="submit">
+
+ </form>
+
    <div>
      © 2024 CodeSpace Cat, All rights& reserved.
    </div>
-<footer>
+</footer>
+</html>
